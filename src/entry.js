@@ -1,7 +1,7 @@
-import index from './controllers/index';
+import inject from './inject';
 
 require('./tags/rt-test.tag');
 
-riot.mixin(index);
+riot.mixin(inject);
 
 riot.mount('rt-test');
